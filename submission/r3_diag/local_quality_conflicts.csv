@@ -1,0 +1,11 @@
+frame,type,left,reference,left_label,reference_label,iou
+adasind_128310.jpg,mismatching_label,5,4,Bus,Car,0.880
+adasind_140160.jpg,mismatching_attributes,1,1,Bike,Bike,0.817
+adasind_230910.jpg,mismatching_label,6,7,Truck,Car,0.899
+adasind_230910.jpg,mismatching_attributes,8,1,Bike,Bike,0.829
+adasind_230910.jpg,mismatching_attributes,2,4,Pedestrian,Pedestrian,0.823
+adasind_230910.jpg,mismatching_attributes,7,3,Car,Car,0.677
+adasind_230910.jpg,extra_annotation,3,,Pedestrian,,N/A
+adasind_230910.jpg,missing_annotation,,8,,Pedestrian,N/A
+adasind_230910.jpg,missing_annotation,,10,,Pedestrian,N/A
+adasind_230910.jpg,missing_annotation,,11,,Pedestrian,N/A

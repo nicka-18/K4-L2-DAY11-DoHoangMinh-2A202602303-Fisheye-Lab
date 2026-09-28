@@ -1,0 +1,9 @@
+round: rework
+slice: B3-mid
+sha256: f2a7611ecb89f0313d5a46a9339206249457982b7b9c032362a6090cf5ba83f0
+code: F2A7-611E
+locked_at: 2026-09-28T18:20:58+07:00
+shapes: box=21, polygon=6
+prefill_kept: 3
+prefill_edited: 0
+new: 18

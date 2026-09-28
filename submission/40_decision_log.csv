@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,Xử lý thừa polygon ignore_region ego_body trên 3 frame,rework,Xóa polygon ignore_region ego_body ở cả 3 frame do không nhìn thấy thân xe,approved
+2,2026-09-28,Phân loại nhầm L5=Bus trên frame adasind_128310.jpg,rework,Đổi class từ Bus thành Car cho khớp với Reference R4,approved
+3,2026-09-28,Phân loại nhầm L6=Truck trên frame adasind_230910.jpg,rework,Đổi class từ Truck thành Car cho khớp với Reference R7,approved
+4,2026-09-28,Thiếu quy tắc visual anchor phân biệt Car vs Truck mép kính fisheye,escalate,Tạo ticket escalation đề nghị Guideline Lead bổ sung visual anchor R01,escalated

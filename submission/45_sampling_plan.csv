@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,low,Góc nhìn phía trước trong điều kiện ánh sáng và giao thông thông thường
+front,hard,25,high,Xe cắt ngang ở cự ly gần và các tình huống ánh sáng khó
+rear,normal,25,low,Góc nhìn phía sau trong các tình huống di chuyển và lùi xe thông thường
+rear,hard,25,high,Xe bám đuôi sát và vệt lóa đèn pha trong điều kiện ban đêm
+left,normal,25,low,Góc bên trái quan sát dải phân cách và phương tiện di chuyển song song
+left,hard,25,high,Vùng seam với camera trước hoặc sau và chướng ngại vật khuất bóng
+right,normal,25,low,Góc bên phải quan sát lề đường và điểm đỗ trong điều kiện thông thường
+right,hard,25,high,Người đi bộ hoặc xe hai bánh cắt sát vùng góc khuất

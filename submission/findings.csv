@@ -1,1 +1,32 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L4+R4,LRM,ATTRIBUTE,E1_annotator_error,P2,annotator,R05,,rework,v1.0.0,L4+R4 mid ATTRIBUTE lech occluded hoac truncated
+calib,C0,adasind_019560.jpg,ego_body,LRM,MISSING,E1_annotator_error,P2,annotator,R06,,keep_with_reason,v1.0.0,Kiem tra polygon ego_body o mep duoi
+calib,C0,adasind_019560.jpg,lens_border,LRM,IGNORE_SCOPE,E1_annotator_error,P3,annotator,R06,,keep_with_reason,v1.0.0,Xac nhan ranh gioi polygon lens_border
+r2_qa,B3-mid,adasind_128310.jpg,IGNORE_REGION 7,L_only,SPURIOUS,,P1,qa,R06,,rework,v1.0.0,Thừa polygon ignore_region ego_body khi ảnh không nhìn thấy thân xe
+r2_qa,B3-mid,adasind_140160.jpg,IGNORE_REGION 13,L_only,SPURIOUS,,P1,qa,R06,,rework,v1.0.0,Thừa polygon ignore_region ego_body khi ảnh không nhìn thấy thân xe
+r2_qa,B3-mid,adasind_230910.jpg,IGNORE_REGION 29,L_only,SPURIOUS,,P1,qa,R06,,rework,v1.0.0,Thừa polygon ignore_region ego_body khi ảnh không nhìn thấy thân xe
+r1_craft,B3-mid,adasind_128310.jpg,L5+R4,LRM,WRONG_CLASS,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Gán nhầm Bus thay vì Car (L5=Bus R4=Car)
+r1_craft,B3-mid,adasind_140160.jpg,L1+R1,LRM,ATTRIBUTE,E1_annotator_error,P2,annotator,R05,,rework,v1.0.0,Lệch thuộc tính truncated/occluded
+r1_craft,B3-mid,adasind_230910.jpg,L3+R11,LRM,BOX_GEOMETRY,E1_annotator_error,P2,annotator,R01,,rework,v1.0.0,Kích thước/vị trí box chưa sát vật thể
+r1_craft,B3-mid,adasind_230910.jpg,L6+R7,LRM,WRONG_CLASS,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Gán nhầm Truck thay vì Car (L6=Truck R7=Car)
+r1_craft,B3-mid,adasind_230910.jpg,R8,RM_noL,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Bỏ sót người đi bộ Pedestrian R8
+r1_craft,B3-mid,adasind_230910.jpg,R10,RM_noL,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Bỏ sót người đi bộ Pedestrian R10
+r3_diag,B3-mid,adasind_128310.jpg,L4+R5,LR_noM,MISSING,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model không phát hiện được vật thể trong vùng mid
+r3_diag,B3-mid,adasind_128310.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Box L5 gán nhầm class Bus
+r3_diag,B3-mid,adasind_128310.jpg,R4+M6,RM_noL,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Bỏ sót box R4 mà cả Ref và Model đều nhận diện được
+r3_diag,B3-mid,adasind_128310.jpg,M4,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model dự đoán nhầm (False Positive)
+r3_diag,B3-mid,adasind_140160.jpg,L2+R3,LR_noM,MISSING,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model không phát hiện vật thể ở vùng center
+r3_diag,B3-mid,adasind_140160.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model không phát hiện vật thể ở vùng edge
+r3_diag,B3-mid,adasind_140160.jpg,M1,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng edge
+r3_diag,B3-mid,adasind_140160.jpg,M2,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng edge
+r3_diag,B3-mid,adasind_140160.jpg,M3,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng center
+r3_diag,B3-mid,adasind_140160.jpg,M5,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng center
+r3_diag,B3-mid,adasind_140160.jpg,M6,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng mid
+r3_diag,B3-mid,adasind_230910.jpg,L5+R5,LR_noM,MISSING,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model bỏ sót vật thể trong vùng mid
+r3_diag,B3-mid,adasind_230910.jpg,L3,L_only,SPURIOUS,E1_annotator_error,P2,annotator,R01,,rework,v1.0.0,Box L3 thừa/lệch so với Reference
+r3_diag,B3-mid,adasind_230910.jpg,L6+M9,LM_noR,SPURIOUS,E1_annotator_error,P2,annotator,R01,,rework,v1.0.0,Box L6 gán sai class Truck cho Car R7
+r3_diag,B3-mid,adasind_230910.jpg,R7,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Gán sai class L6 thay vì Car R7
+r3_diag,B3-mid,adasind_230910.jpg,R8,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Bỏ sót người đi bộ R8 trong Reference
+r3_diag,B3-mid,adasind_230910.jpg,R10,R_only,MISSING,E1_annotator_error,P1,annotator,R01,,rework,v1.0.0,Bỏ sót người đi bộ R10 trong Reference
+r3_diag,B3-mid,adasind_230910.jpg,R11,R_only,MISSING,E1_annotator_error,P2,annotator,R01,,rework,v1.0.0,Box L3 bị lệch vị trí so với R11
+r3_diag,B3-mid,adasind_230910.jpg,M8,M_only,SPURIOUS,E4_model_domain,P3,qa,R01,,keep_with_reason,v1.0.0,Model phát hiện nhầm ở vùng mid
